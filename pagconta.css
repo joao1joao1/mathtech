@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --azulescuro: #0B3D80;
+    --azulclaro: #4285F3;
+    --azulzinho: #79BFFF;
+    --laranja: #F68F06;
+    --laranjaclaro: #FFF1D6;
+    --laranjaclaro2: #FFD67C;
+    --branco: #fff;
+}
+
+@font-face {
+    font-family: Hanken Grotesk; /* Nome que você usará para aplicar a fonte */
+    src: url('./fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
+}
+
+@font-face {
+    font-family: Baron Neue;
+    src: url('./fontes/baron_neue/Baron\ Neue\ Black.otf');
+}
+
+@font-face {
+    font-family: Circe;
+    src: url('./fontes/circe-cufonfonts/CRC55.otf');
+}
+
+@font-face {
+    font-family: Lemon Milk;
+    src: url('./fontes/lemon_milk/LEMONMILK-Medium.otf');
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    /* colocar azulquase escuro no body, testar no pc da sala do wesley, para ver tamanho do todo */
+}
+
+#containerGlobal {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--laranja);
+    max-height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+    position: fixed;
+    top: 0;
+    width: 1440px;
+}
+
+#navegacao nav {
+    background-color: var(--laranjaclaro);
+    padding: 8px 45px;
+    border-radius: 25px;
+}
+
+#navegacao a {
+    font-size: 16px;
+    text-decoration: none;
+    margin-inline: 1.2rem;
+    color: var(--azulescuro);
+    font-family: 'Baron Neue';
+}
+
+#icons {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
