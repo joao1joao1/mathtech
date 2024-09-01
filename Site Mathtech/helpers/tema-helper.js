@@ -40,9 +40,3 @@ export function verificarTema(body, botaoTema){
         botaoTema.style.justifyContent = "flex-end"
     }
 };
-
-const assunto = document.querySelector("main h1")
-
-function alterarAssunto () {
-    assunto.classList()
-}
