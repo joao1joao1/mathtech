@@ -82,7 +82,11 @@ header {
 #navegacao nav {
     background-color: #FFF1D6;
     padding: 8px 45px;
-    border-radius: 25px;
+    border-radius: 25px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 350px;
 }
 
 #navegacao a {
