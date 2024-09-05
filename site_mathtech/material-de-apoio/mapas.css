@@ -121,8 +121,8 @@ main nav {
     margin-bottom: 50px;
 }
 
-#conteudos button{
-    background-color: var(--branco);
+#conteudos a{
+    background-color: var(--laranjaclaro);
     padding: 10px;
     height: 100px;
     border-radius: 8px;
