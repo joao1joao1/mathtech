@@ -590,3 +590,50 @@ button:hover {
     font-family: 'Circe';
     border-radius: 10px;
 }
+
+dialog{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+dialog > div{
+    padding-top: 10px;
+    padding-inline: 30px;
+    padding-bottom: 60px;
+    background-color: var(--azulzinho);
+    color: var(--branco);
+    width: fit-content;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+dialog > div > .textoDialog > h1{
+    font-family: 'Hanken Grotesk';
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+dialog > div> .textoDialog h3 {
+    font-family: 'Circe';
+    text-transform: uppercase;
+    color: var(--azulescuro);
+    font-weight: bold;
+    text-align: center;
+}
+
+dialog div > #botaoFechar{
+    margin-bottom: 30px;
+}
+
+dialog div > #botaoFechar > img{
+    margin-top: 0px;
+    max-width: 90px;
+    max-height: 90px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+

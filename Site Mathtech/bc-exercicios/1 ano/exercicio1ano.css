@@ -200,3 +200,17 @@ h1 {
     font-family: 'Baron Neue';
     font-size: 40px;
 }
+
+#botaoEnviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--azulzinho);
+    height: 70px;
+    border-radius: 15px;
+    width: 320px;
+    color: var(--laranjaclaro);
+    text-decoration: none;
+    font-family: 'Baron Neue';
+    font-size: 40px;
+}

@@ -1,4 +1,4 @@
-import { exercicios } from "../../questões/primeiroano"
+import { exercicios } from "../../../quiz matchtech/questões/primeiroano"
 
 let pergunta= 1
 let contadorTema= 0
