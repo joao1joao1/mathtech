@@ -33,9 +33,9 @@ function alterarAssunto() {
 
 
 async function buscarPerguntas() {
-    const urlDados = "../../questões/primeiroano.js"
+    const urlDados = "../questoes-quiz.js"
 
-   await fetch(urlDados).then(resposta => primeiroano.json()).then(dados => {
+   await fetch(urlDados).then(resposta => questoes-quiz.js()).then(dados => {
         dados.quizzes.forEach(dado => {
            if (dado.title === assunto) {
             quiz = dado
