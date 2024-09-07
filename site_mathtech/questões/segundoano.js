@@ -728,7 +728,7 @@ export const exercicios = [
                     "4,5 horas",
                     "7,0 horas"
                 ],
-                "answer": "3 horas"
+                "answer": "3,0 horas"
             },
       
             {
