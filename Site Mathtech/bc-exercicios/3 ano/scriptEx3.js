@@ -1,4 +1,4 @@
-import { exercicios } from '../../questões/primeiroano.js';
+import { exercicios } from '../../questões/terceiroano.js';
 
 const setaDireita = document.getElementById("seta-direita");
 const setaEsquerda = document.getElementById("seta-esquerda");

@@ -14,6 +14,8 @@
     --laranjaclaro2: #FFD67C;
     --branco: #fff;
     --branco2: #FFF9ED;
+    --verde-certo: #2FF62B;
+    --vermelho-errado:#FF0000;
 }
 
 @font-face {
@@ -35,7 +37,6 @@
     font-family: Lemon Milk;
     src: url('../../fontes/lemon_milk/LEMONMILK-Medium.otf');
 }
-
 
 html {
     scroll-behavior: smooth;
@@ -134,12 +135,13 @@ h1 {
     width: 100px;
     background: none;
     border: none;
-    margin-right: 150vh;
+    margin-right: 300px;
     margin-top: -90px;
 }
 
 #seta-direita img {
     width: 100px;
+    margin-left: 100px;
     transform: scaleX(-1);
 }
 
@@ -149,20 +151,27 @@ h1 {
 
 #questao {
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-top: -200px;
     padding: 50px;
-    height: 400px;
+    height: 350px;
     border-radius: 20px;
     font-family: 'Circe';
     background-color: var(--branco2);
+    margin-inline: 180px;
 }
 
-#alternativas {
+#alternativas{
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    margin-left: 50px;
+}
+
+#alternativas button {
+    margin-bottom: 5px;
+    background: none;
+    border: none;
 }
 
 #botoes{
@@ -178,6 +187,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
     background: var(--azulescuro);
     height: 70px;
     border-radius: 15px;
@@ -189,6 +199,7 @@ h1 {
 }
 
 #botaoProximo{
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,3 +212,11 @@ h1 {
     font-family: 'Baron Neue';
     font-size: 40px;
 }
+
+.certo {
+    background-color: green; /* verde */
+  }
+  
+  .errado {
+    background-color: red; /* vermelho */
+  }

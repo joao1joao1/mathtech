@@ -17,22 +17,22 @@
 
 @font-face {
     font-family: Hanken Grotesk; /* Nome que você usará para aplicar a fonte */
-    src: url('./fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
+    src: url('../../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
 }
 
 @font-face {
     font-family: Baron Neue;
-    src: url('./fontes/baron_neue/Baron\ Neue\ Black.otf');
+    src: url('../../fontes/baron_neue/Baron\ Neue\ Black.otf');
 }
 
 @font-face {
     font-family: Circe;
-    src: url('./fontes/circe-cufonfonts/CRC55.otf');
+    src: url('../../fontes/circe-cufonfonts/CRC55.otf');
 }
 
 @font-face {
     font-family: Lemon Milk;
-    src: url('./fontes/lemon_milk/LEMONMILK-Medium.otf');
+    src: url('../../fontes/lemon_milk/LEMONMILK-Medium.otf');
 }
 
 html {
