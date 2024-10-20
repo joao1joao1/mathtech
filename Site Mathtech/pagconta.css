@@ -139,13 +139,14 @@ h1 {
     width: 500px;
     height: 70px;
     border-radius: 10px;
+    border: none;
 }
 
-#inputs input::placeholder {
+inputs input::placeholder {
     font-family: 'Circe';
     font-size: 20px;
     color: var(--placeholder);
-}
+}#
 
 #dadosUsuario button {
     width: 178px;
