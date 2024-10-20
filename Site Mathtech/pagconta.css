@@ -13,6 +13,7 @@
     --laranjaclaro: #FFF1D6;
     --laranjaclaro2: #FFD67C;
     --branco: #fff;
+    --placeholder: #627688;
 }
 
 @font-face {
@@ -75,4 +76,131 @@ header {
     display: flex;
     align-items: center;
     margin-right: 10px;
+}
+
+body {
+    background-color: var(--azulescuro);
+}
+
+#containerGlobal {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Hanken Grotesk';
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#dados {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#icone img {
+    margin-right: 1200px;
+    width: 200px;
+    margin-top: 100px;
+    background-color: var(--branco);
+    border-radius: 20px;
+}
+
+h1 {
+    color: var(--laranja);
+}
+
+#dadosUsuario {
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    width: 600px;
+    gap: 10px;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#inputs input {
+    background-color: hsl(209, 100%, 82%);
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#inputs input::placeholder {
+    font-family: 'Circe';
+    font-size: 20px;
+    color: var(--placeholder);
+}
+
+#dadosUsuario button {
+    width: 178px;
+    border: none;
+    height: 56px;
+    font-size: 26px;
+    background-color: var(--laranja);
+    color: var(--azulescuro);
+    border-radius: 8px;
+    font-family: 'Baron Neue';
+}
+
+#progressoGeral {
+    display: flex;
+    flex-direction: row;
+}
+
+#progresso {
+    background-color: var(--branco);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#progresso h2 {
+    color: var(--azulclaro);
+}
+
+#progresso p {
+    color: var(--azulescuro);
+    margin-right: 550px;
+    margin-bottom: 20px;
+}
+
+#maiorPontuacao {
+    background-color: var(--branco);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#maiorPontuacao h2 {
+    color: var(--azulclaro);
+}
+
+#maiorPontuacao strong {
+    color: var(--laranjaclaro2);
+}
+
+#maiorPontuacao span {
+    color: var(--laranja);
+}
+
+#maiorPontuacao p {
+    color: var(--azulzinho);
+}
+
+#maiorPontuacao p strong {
+    color: var(--azulclaro);
 }
